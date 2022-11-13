@@ -1,0 +1,71 @@
+*{
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+body{
+    background-color: #A9C9FF;
+    background-image: linear-gradient(180deg, #A9C9FF 0%, #FFBBEC 100%);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+.quiz-con{
+    width: 600px;
+    background-color: white;
+    border: none;
+    border-radius: 2%;
+    box-shadow: 0 0 10px 5px rgb(0, 0, 0,0.2);
+    overflow: hidden;
+}
+
+.quiz-header{
+    text-align: center;
+}
+
+ul{
+    list-style: none;
+}
+
+button{
+    width: 100%;
+    height: 3rem;
+    border: none;
+    background-color: #8395a7;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+
+}
+button:hover{
+    animation-name: check;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+}
+
+ul li label{
+    cursor: pointer;
+    margin-left: 2%;
+}
+
+ul li{
+    margin-bottom: 2%;
+}
+
+@keyframes check {
+    from {background-color: #8395a7;}
+    to {background-color: #10ac84;}
+}
+
+.finish{
+    text-align: center;
+    color: #10ac84;
+    animation: finish 2s ease-in-out infinite;
+}
+
+@keyframes finish {
+    from{color: rgb(26, 26, 26);}
+    to {color: #10ac84;}
+}
