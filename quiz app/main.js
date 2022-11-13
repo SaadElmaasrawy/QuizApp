@@ -1,28 +1,34 @@
 const quizData = [
     {
-        q: 'how are you ?',
-        a: 'good',
-        b: 'fine',
-        c: 'meh',
-        d: 'fine thank u',
-        correct : 'd'
+        q: 'What is actually electricity ?',
+        a: 'A flow of water',
+        b: 'A flow of air',
+        c: 'A flow of electrons',
+        d: 'A flow of atoms',
+        correct : 'c'
     },{
-        q: 'do u play lol ?',
-        a: 'yes',
-        b: 'no',
-        c: 'yea and i hate it',
-        d: 'what is lol',
-        correct: 'c'
+        q: 'What is the speed of sound ?',
+        a: '120 km/h',
+        b: '1,200 km/h',
+        c: '400 km/h',
+        d: '700 km/h',
+        correct: 'b'
     },{
-        q: 'why are u ?',
-        a: 'what',
-        b: '?',
-        c: 'lol',
-        d: 'hahah',
+        q: 'What is the main component of the sun?',
+        a: 'Liquid lava',
+        b: 'Gas',
+        c: 'Molten iron',
+        d: 'Rock',
+        correct: 'b'
+    },{
+        q: 'In which country is Transylvania?',
+        a: 'Bulgaria',
+        b: 'Romania',
+        c: 'Croatia',
+        d: 'Serbia',
         correct: 'b'
     }
 ]
-
 const quizHeader = document.getElementById("quiz-header")
 
 const a = document.getElementById("a-label");
